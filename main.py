@@ -11,8 +11,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import matplotlib
 
-df_1 = pd.read_csv("heat_data_fig_1_python.csv").set_index("Country")
-df_2 = pd.read_csv("heat_data_fig_2_python.csv").set_index("Country")
+df_1 = pd.read_csv("Processed/heat_data_fig_1_python.csv").set_index("Country")
+df_2 = pd.read_csv("Processed/heat_data_fig_2_python.csv").set_index("Country")
 
 
 """ FIGURE PROPERTIES """

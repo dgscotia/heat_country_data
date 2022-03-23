@@ -1,0 +1,7 @@
+document.getElementById("foot01").innerHTML =
+"<p>IDAE " + new Date().getFullYear() + " </p>";
+document.getElementById("nav01").innerHTML =
+"<div id='logo' style='height:90px;'><img src='/imagenes/logo1.jpg' style='height:65px;float: left'><h1>" +
+"<p style='padding-top: 5px;padding-left:630px;vertical-align:bottom;'>CONSUMO DE ENERGÍA FINAL </p></h1><h6>"+
+"</h6></div>";
+

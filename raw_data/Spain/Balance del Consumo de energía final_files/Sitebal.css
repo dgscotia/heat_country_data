@@ -1,0 +1,172 @@
+body {
+    width:1350px;
+    font-family: Calibri,Arial, Verdana, sans-serif;
+    font-size: 24px;
+    background-color: white;
+    color: #696969;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#main {
+    padding: 0px 0px;
+    padding-left:  0px;
+    padding-right: 0px;
+    background-color: white;
+    border-radius: 0 0 5px 0px;
+    border-left: 1px solid dimgrey;
+    border-top: 1px solid dimgrey;
+    float:left;
+}
+#nav01 {
+    padding: 0px 0px;
+    padding-left:0px;
+    padding-right:0px;
+    margin-bottom:0px;
+    margin-top: 0px;
+}
+#logo {
+    padding: 0px 0px;
+    padding-left:0px;
+    padding-right:0px;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+h1 {
+    text-align:left;
+    font-size: 32px;
+}
+h6 {
+    margin-bottom:0px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table {
+    width:100%;
+}
+table, th , td {
+    border-collapse: collapse;
+    padding: 0px;
+}
+ul.menu {
+    padding:7px 0px;
+    margin-bottom:0px;
+    margin-top:0px;
+	font-size: 14px;
+	line-height:24px;
+}
+ul.menu li {
+    display: inline;
+    margin-right: 3px;
+}
+ul.menu li a {
+    background-color: #ffffff;
+	padding:5px 5px 15px 65px;
+    text-decoration: none;
+    color:  #337983;
+    border-radius: 4px 4px 0 0;
+    margin-bottom:0px;
+    margin-top:0px;
+    border: 1px solid dimgrey;
+}
+ul.menu li a:hover {
+    color: white;
+    background-color: #337983;
+} 
+.clearboth {
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+#nav {
+    font-family:Calibri,Arial, Verdana, sans-serif;
+    font-size: 16pt;
+}
+#nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#nav a:link,
+#nav a:visited {
+    text-decoration: none;
+}
+#nav a {
+    display: block;
+    padding: 2px 4px;
+}
+#nav li {
+    float: left;
+    background-color: white;
+    margin-right: 4px;
+    position: relative;
+}
+#nav li li{
+    width: 160px;
+    margin-top: 1px;
+    background-color:#337983;
+}
+#nav li a:hover {
+    background-color: #337983;
+}
+#nav li li a:hover {
+    background-color:#337983;
+}  
+#nav ul ul  {
+    position: absolute;
+    visibility: hidden;
+	font-size: 12px;
+}
+#nav ul ul ul{
+    position: absolute;
+    left: 100%;
+    top: -2px;
+    border: solid 1px transparent;
+}
+#nav li a :hover {
+    display: block;
+    padding: 6px 8px;
+    color: white;
+}
+#nav li:hover > ul {
+    visibility: visible;
+}
+.right-arrow {
+    float: right;
+}
+a.salir {
+padding: 2px; 
+border-radius: 7px; 
+border: 1px solid rgb(51, 121, 131);
+color: rgb(51, 121, 131);
+font-size: 12px; 
+text-decoration: none; 
+float: right;
+}
+a.salir:hover {
+    background-color: #337983;
+	color:white;
+} 
+label i {
+color:dimgrey;
+font-weight:bolder;
+}
+div.corredera {
+    width:142px;
+	height: 24px;
+    background-color: #337983;
+	z-index:2;
+	position: relative;
+	top:22px;
+	right:1px;
+    -webkit-transition:right 2s; /* Safari */
+    transition:top 2s;
+}
+div.corredera:hover {
+	top:-1px;
+}
+#espacio:hover{
+	color:white;
+	background-color:white;
+}
