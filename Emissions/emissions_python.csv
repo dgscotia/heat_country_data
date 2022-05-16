@@ -1,0 +1,9 @@
+Country,Heat in Buildings,Other,Note
+Canada,0.208,0.792,
+Chile,0.0587,0.9413,This does not account for emissions to produce electricity used for heating.
+Denmark,0.05,0.95,This does not account for emissions to produce electricity used for heating.
+France,0.155,0.845,This does not account for emissions to produce electricity used for heating.
+Germany,0.154,0.846,This does not account for emissions to produce electricity used for heating.
+Scotland,0.177,0.823,
+United Kingdom,0.23,0.77,
+United States,0.208,0.793,
